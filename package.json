@@ -16,6 +16,10 @@
     "canvas",
     "drawing"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benthejack-vuw/quick_canvas"
+  },
   "author": "Ben Jack",
   "license": "ISC",
   "devDependencies": {
