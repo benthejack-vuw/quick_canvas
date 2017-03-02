@@ -1,6 +1,4 @@
-import * as Interactive from "./interactive/interactive"
-
-export{Interactive}
+export * from "./interactive/interactive"
 export * from "./boundingBox"
 export * from "./circle"
 export * from "./line"
