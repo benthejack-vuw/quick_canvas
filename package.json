@@ -1,0 +1,34 @@
+{
+  "name": "js-quick-canvas",
+  "version": "1.0.0",
+  "description": "JS Quick Canvas is an actrionscript3-like display stack library with some basic geometry and util classes",
+  "main": "lib/quick_canvas.min.js",
+  "typings": "lib/src/quick_canvas",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "display",
+    "stack",
+    "canvas",
+    "drawing"
+  ],
+  "author": "Ben Jack",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "path": "^0.12.7",
+    "ts-loader": "^2.0.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "bj_utils": "^1.0.2",
+    "js_interaction_centre": "^1.0.8"
+  }
+}

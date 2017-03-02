@@ -1,0 +1,11 @@
+{
+  "version": "2.2.1",
+  "compilerOptions": {
+  	"module": "commonjs",
+    "target": "ES2015",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "declaration": true
+  },
+  "exclude": ["node_modules", "lib"]
+}
