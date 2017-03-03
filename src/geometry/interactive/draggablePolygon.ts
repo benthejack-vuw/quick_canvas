@@ -5,10 +5,10 @@
 *
 */
 
-import {Point} from "bj_utils"
-import {DrawingUtils} from "bj_utils"
+import {Point} from "bj-utils"
+import {DrawingUtils} from "bj-utils"
 
-import {MouseData} from "js_interaction_centre"
+import {MouseData} from "interaction-centre"
 
 import {BoundingBox} from "../boundingBox"
 import {Polygon} from "../polygon"

@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-  entry: ["babel-polyfill", path.join(__dirname, "src/quickCanvas.ts")],
+  entry: [path.join(__dirname, "src/quickCanvas.ts")],
   output: {
     path: path.resolve(__dirname, "lib"),
     filename: "quickCanvas.min.js"

@@ -1,6 +1,6 @@
-import {Point} from "bj_utils";
-import {Transform} from "bj_utils"
-import {BJMath} from "bj_utils";
+import {Point} from "bj-utils";
+import {Transform} from "bj-utils"
+import {BJMath} from "bj-utils";
 
 import {Line} from "./line";
 import {Rectangle} from "./rectangle";

@@ -1,5 +1,5 @@
-import {Point} from "bj_utils"
-import {Transform} from "bj_utils"
+import {Point} from "bj-utils"
+import {Transform} from "bj-utils"
 
 import {Rectangle} from "./rectangle"
 

@@ -1,6 +1,8 @@
+import {Point} from "bj-utils"
+
 import {Polygon} from "./polygon"
 import {Line} from "./line"
-import {Point} from "bj_utils"
+
 
 export class RegularPolygon extends Polygon{
 

@@ -5,7 +5,7 @@
 */
 
 
-import {Point} from "bj_utils"
+import {Point} from "bj-utils"
 
 import {DraggablePoint} from "./draggablePoint"
 import {DraggablePolygon} from "./draggablePolygon"

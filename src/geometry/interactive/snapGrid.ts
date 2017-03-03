@@ -5,9 +5,9 @@
 *	Copyright Ben Jack 2016
 */
 
-import {Point} from "bj_utils";
-import {DrawingUtils} from "bj_utils";
-import {BJMath} from "bj_utils";
+import {Point} from "bj-utils";
+import {DrawingUtils} from "bj-utils";
+import {BJMath} from "bj-utils";
 
 import {DisplayObject} from "../../canvas/displayObject"
 import {BoundingBox} from "../boundingBox";

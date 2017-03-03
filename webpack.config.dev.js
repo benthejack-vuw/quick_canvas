@@ -1,10 +1,10 @@
 const path = require("path");
 
 module.exports = {
-  entry: ["babel-polyfill", path.join(__dirname, "src/quickCanvas.ts")],
+  entry: [path.join(__dirname, "src/quickCanvas.ts")],
   output: {
-    path: __dirname,
-    filename: "lib/quickCanvas.min.js"
+    path:  path.resolve(__dirname, "lib"),
+    filename: "quickCanvas.min.js"
   },
   resolve: {
     extensions: ["", ".js", ".ts"]

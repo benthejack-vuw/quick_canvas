@@ -1,5 +1,5 @@
-import {Point} from "bj_utils";
-import {BJMath} from "bj_utils"
+import {Point} from "bj-utils";
+import {BJMath} from "bj-utils"
 
 //InteractiveLine is a line geometry class that has some helpful math functions included
 

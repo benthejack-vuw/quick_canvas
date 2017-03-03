@@ -1,7 +1,7 @@
-import {OrderError} from "bj_utils"
-import {DrawingUtils} from "bj_utils"
-import {Point} from "bj_utils"
-import {Transform} from "bj_utils"
+import {OrderError} from "bj-utils"
+import {DrawingUtils} from "bj-utils"
+import {Point} from "bj-utils"
+import {Transform} from "bj-utils"
 
 import {Polygon} from "./polygon";
 import {BoundingBox} from "./boundingBox";

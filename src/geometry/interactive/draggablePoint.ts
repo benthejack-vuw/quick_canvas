@@ -5,14 +5,15 @@
 *
 */
 
-import {DataError} from "bj_utils"
-import {Point} from "bj_utils"
-import {DrawingUtils} from "bj_utils"
-import {BJMath} from "bj_utils"
+import {DataError} from "bj-utils"
+import {Point} from "bj-utils"
+import {DrawingUtils} from "bj-utils"
+import {BJMath} from "bj-utils"
+
+import {MouseData} from "interaction-centre"
 
 import {SnapGrid} from "./snapGrid"
 import {Circle} from "../circle"
-import {MouseData} from "js_interaction_centre"
 import {DisplayObject} from "../../canvas/displayObject"
 
 const DEFAULT_POINT_SIZE:number = 10;	

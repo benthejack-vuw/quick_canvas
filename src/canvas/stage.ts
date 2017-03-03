@@ -6,12 +6,12 @@
 *	Copyright Ben Jack 2016
 */
 
-import {Point} from "bj_utils"
-import {Transform} from "bj_utils" 
+import {Point} from "bj-utils"
+import {Transform} from "bj-utils" 
 
-import {InteractionManager} from "js_interaction_centre"
-import {MouseData} from "js_interaction_centre"
-import {MutableMouseData} from "js_interaction_centre"
+import {InteractionManager} from "interaction-centre"
+import {MouseData} from "interaction-centre"
+import {MutableMouseData} from "interaction-centre"
 
 import {DisplayObject} from "./displayObject"
 

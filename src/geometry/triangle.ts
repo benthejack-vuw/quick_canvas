@@ -1,5 +1,5 @@
-import {Point} from "bj_utils";
-import {DataError} from "bj_utils";
+import {Point} from "bj-utils";
+import {DataError} from "bj-utils";
 
 import {Rectangle} from "./rectangle";
 

@@ -7,14 +7,14 @@
 *	Copyright Ben Jack 2016
 */
 
-import {Transform} from "bj_utils"
-import {OverrideError} from "bj_utils" 
-import {OrderError} from "bj_utils"
-import {Point} from "bj_utils"
-import {DrawingUtils} from "bj_utils"
+import {Transform} from "bj-utils"
+import {OverrideError} from "bj-utils" 
+import {OrderError} from "bj-utils"
+import {Point} from "bj-utils"
+import {DrawingUtils} from "bj-utils"
 
-import {MouseData} from "js_interaction_centre"
-import {MutableMouseData} from "js_interaction_centre"
+import {MouseData} from "interaction-centre"
+import {MutableMouseData} from "interaction-centre"
 
 import {Stage} from "./stage"
 
