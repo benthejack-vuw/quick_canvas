@@ -1,11 +1,18 @@
 {
   "version": "2.2.1",
   "compilerOptions": {
-  	"module": "commonjs",
+
     "target": "ES2015",
-    "noImplicitAny": true,
-    "sourceMap": true,
-    "declaration": true
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./lib",
+    "sourceMap": true
   },
-  "exclude": ["node_modules", "lib"]
+  "exclude": ["node_modules", "lib"],
+  "externalTranspiler": "babel"
 }

@@ -1,14 +1,14 @@
 /*
 *	Stage is the lowest object in the DisplayObject Tree. A stage is necessary
-*   as it creates the initial canvas context and manages the interactions of 
+*   as it creates the initial canvas context and manages the interactions of
 *	higher up DisplayObjects.
 *
 *	Copyright Ben Jack 2016
 */
 
 import {Point} from "bj-utils"
-import {Transform} from "bj-utils" 
 
+import {Transform} from "interaction-centre"
 import {InteractionManager} from "interaction-centre"
 import {MouseData} from "interaction-centre"
 import {MutableMouseData} from "interaction-centre"
@@ -20,7 +20,7 @@ import {DisplayObject} from "./displayObject"
 //defines the mouse interaction callbacks
 var stageInteractions = {
 	"mouse":{
-		
+
 		"click":{
 			"left" : "stageMouseClick"
 		},
@@ -72,7 +72,7 @@ export class Stage extends DisplayObject{
 		window.requestAnimationFrame(this.drawStage);
 	}
 
-	
+
 	public get drawingContext():CanvasRenderingContext2D{
 		return this.stageCanvas.getContext("2d");
 	}
@@ -80,9 +80,9 @@ export class Stage extends DisplayObject{
 	public drawStage = () => {
 		var ctx:CanvasRenderingContext2D = this.renderingContext;
 
-		if(this._modifiedMatrix)		
+		if(this._modifiedMatrix)
 			ctx.setTransform(1, 0, 0, 1, 0, 0);
-		
+
 		this.clear(ctx, true);
 
 		if(this._modifiedMatrix)
@@ -171,15 +171,15 @@ export class Stage extends DisplayObject{
 		}
 	}
 
-	public stageMouseMove = (mouseData:MouseData) => {	
-		
-		for(var i = 0; i < this._children.length; ++i){ 
+	public stageMouseMove = (mouseData:MouseData) => {
+
+		for(var i = 0; i < this._children.length; ++i){
 			this._children[i].updateMouse(mouseData);
 		}
 	}
 
 	public stageMouseDrag = (mouseData:MouseData) => {
-		
+
 		if(this._selectedChild != null){
 			this._selectedChild.mouseDragged(mouseData);
 		}
@@ -187,6 +187,3 @@ export class Stage extends DisplayObject{
 
 
 }
-
-
-
