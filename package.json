@@ -1,6 +1,6 @@
 {
   "name": "quick-canvas",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "JS Quick Canvas is an actrionscript3-like display stack library with some basic geometry and util classes",
   "main": "lib/quickCanvas.js",
   "typings": "lib/quickCanvas",
