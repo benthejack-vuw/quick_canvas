@@ -1,5 +1,3 @@
 {
-  "only":["./lib/**/*.js"],
-  "presets":["es2015"],
-  "plugins":["transform-runtime"]
+	 "presets":[["es2015", {modules:false}]]
 }
